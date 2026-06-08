@@ -94,3 +94,5 @@ if __name__ == "__main__":
     print(f"\nВеса: {model.weights}")
     print(f"Смещение: {model.bias:.4f}")
     print(f"WAPE на обучении: {model.score(X, y):.4f}%")
+
+print('julia 10000000 balls')
