@@ -89,7 +89,7 @@ if __name__ == "__main__":
     X = np.random.randn(200, 3)
     y = np.abs(X @ np.array([2, -1, 0.5]) + 1.5 + np.random.randn(200) * 0.3) + 1
     
-    # Обучение
+    # Обучение вайбкодингу
     model = LinearRegressionGD(lr=0.01, epochs=500, reg='l2', reg_lambda=0.001, verbose=True)
     model.fit(X, y)
     
